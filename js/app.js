@@ -59,11 +59,11 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     let samArray = [];
-    let samsum = sum(a,sum(b,c)[0])[0];
-    let sammultiply = multiply(a,multiply(b,c)[0])[0];
-    let samstringone =  `${a} and ${b} and ${c} sum to ${samsum}.`;
-    let samstringtwo = `The product of ${a} and ${b} and ${c} is ${sammultiply}.`;
-    samArray.push(samsum, sammultiply, samstringone, samstringtwo);
+    let samSum = sum(a,sum(b,c)[0])[0];
+    let samMultiply = multiply(a,multiply(b,c)[0])[0];
+    let samStringOne =  `${a} and ${b} and ${c} sum to ${samSum}.`;
+    let samStringTwo = `The product of ${a} and ${b} and ${c} is ${samMultiply}.`;
+    samArray.push(samSum, samMultiply, samStringOne, samStringTwo);
     return samArray;
   }
   console.log(sumAndMultiply(4,7,5));
